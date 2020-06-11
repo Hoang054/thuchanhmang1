@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let mang=[];
+        let V=99;
+        let check = false;
+        for(i=0;i<=9;i++){
+            let tam = prompt(`nhap phan tu ${i}`);
+            mang.push(tam);
+            if(tam == V){
+                check = true;
+            }
+        }
+           
+        if(check){
+            document.write('V is in the array');
+        }else{
+            document.write('V is not in the array');
+        }
+    </script>
+</body>
+</html>
